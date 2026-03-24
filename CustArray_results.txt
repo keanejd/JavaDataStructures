@@ -1,0 +1,141 @@
+We are filling the Array with this many elements: 7 Of type: class zoo.Animal
+The array size is 14 The tail pointer is at 7
+
+Animal name: daizy Animal age:15 Animal type: X-ray fish CustArray
+Animal name: amenadiel Animal age:10 Animal type: Guineafowl CustArray
+Animal name: hercules Animal age:13 Animal type: Cow CustArray
+Animal name: sadi Animal age:6 Animal type: Tiger CustArray
+Animal name: safwaan Animal age:13 Animal type: Reptile CustArray
+Animal name: jakalyn Animal age:37 Animal type: American robin CustArray
+Animal name: grayston Animal age:20 Animal type: Star-nosed mole CustArray
+
+
+This is a test of the overloaded method 
+Animal name: daizy Animal age:15 Animal type: X-ray fish array Param CustArray
+Animal name: amenadiel Animal age:10 Animal type: Guineafowl array Param CustArray
+Animal name: hercules Animal age:13 Animal type: Cow array Param CustArray
+Animal name: sadi Animal age:6 Animal type: Tiger array Param CustArray
+Animal name: safwaan Animal age:13 Animal type: Reptile array Param CustArray
+Animal name: jakalyn Animal age:37 Animal type: American robin array Param CustArray
+Animal name: grayston Animal age:20 Animal type: Star-nosed mole array Param CustArray
+Animal name: jovan Animal age:50 Animal type: Basilisk array Param CustArray
+Animal name: camya Animal age:36 Animal type: African leopard array Param CustArray
+Animal name: augustino Animal age:27 Animal type: Mountain goat array Param CustArray
+Animal name: delight Animal age:8 Animal type: Bird array Param CustArray
+Animal name: arrison Animal age:7 Animal type: Bandicoot array Param CustArray
+Animal name: leika Animal age:20 Animal type: Sea lion array Param CustArray
+Animal name: khalief Animal age:35 Animal type: Mosquito array Param CustArray
+Animal name: nola Animal age:37 Animal type: Moth array Param CustArray
+
+-----------------Testing the swap function----------------------
+Before the swap
+The array size is 14 The tail pointer is at 7
+
+Animal name: daizy Animal age:15 Animal type: X-ray fish CustArray
+Animal name: amenadiel Animal age:10 Animal type: Guineafowl CustArray
+Animal name: hercules Animal age:13 Animal type: Cow CustArray
+Animal name: sadi Animal age:6 Animal type: Tiger CustArray
+Animal name: safwaan Animal age:13 Animal type: Reptile CustArray
+Animal name: jakalyn Animal age:37 Animal type: American robin CustArray
+Animal name: grayston Animal age:20 Animal type: Star-nosed mole CustArray
+
+After the swap
+The array size is 14 The tail pointer is at 7
+
+Animal name: grayston Animal age:20 Animal type: Star-nosed mole CustArray
+Animal name: amenadiel Animal age:10 Animal type: Guineafowl CustArray
+Animal name: hercules Animal age:13 Animal type: Cow CustArray
+Animal name: sadi Animal age:6 Animal type: Tiger CustArray
+Animal name: safwaan Animal age:13 Animal type: Reptile CustArray
+Animal name: jakalyn Animal age:37 Animal type: American robin CustArray
+Animal name: daizy Animal age:15 Animal type: X-ray fish CustArray
+
+-----------------Testing the remove function----------------------
+
+The removed element is: Animal name: grayston Animal age:20 Animal type: Star-nosed mole
+
+The array size is 7 The tail pointer is at 6
+
+Animal name: amenadiel Animal age:10 Animal type: Guineafowl CustArray
+Animal name: hercules Animal age:13 Animal type: Cow CustArray
+Animal name: sadi Animal age:6 Animal type: Tiger CustArray
+Animal name: safwaan Animal age:13 Animal type: Reptile CustArray
+Animal name: jakalyn Animal age:37 Animal type: American robin CustArray
+Animal name: daizy Animal age:15 Animal type: X-ray fish CustArray
+
+-----------------Testing the add duplicates function----------------------
+The array size is 28 The tail pointer is at 21
+
+Animal name: amenadiel Animal age:10 Animal type: Guineafowl CustArray
+Animal name: hercules Animal age:13 Animal type: Cow CustArray
+Animal name: sadi Animal age:6 Animal type: Tiger CustArray
+Animal name: safwaan Animal age:13 Animal type: Reptile CustArray
+Animal name: jakalyn Animal age:37 Animal type: American robin CustArray
+Animal name: daizy Animal age:15 Animal type: X-ray fish CustArray
+Animal name: jovan Animal age:50 Animal type: Basilisk CustArray
+Animal name: sadi Animal age:6 Animal type: Tiger CustArray
+Animal name: hercules Animal age:13 Animal type: Cow CustArray
+Animal name: nola Animal age:37 Animal type: Moth CustArray
+Animal name: delight Animal age:8 Animal type: Bird CustArray
+Animal name: leika Animal age:20 Animal type: Sea lion CustArray
+Animal name: leika Animal age:20 Animal type: Sea lion CustArray
+Animal name: sadi Animal age:6 Animal type: Tiger CustArray
+Animal name: amenadiel Animal age:10 Animal type: Guineafowl CustArray
+Animal name: amenadiel Animal age:10 Animal type: Guineafowl CustArray
+Animal name: augustino Animal age:27 Animal type: Mountain goat CustArray
+Animal name: daizy Animal age:15 Animal type: X-ray fish CustArray
+Animal name: safwaan Animal age:13 Animal type: Reptile CustArray
+Animal name: khalief Animal age:35 Animal type: Mosquito CustArray
+Animal name: nola Animal age:37 Animal type: Moth CustArray
+
+-----------------Testing the add duplicates function----------------------
+=================Finding Duplicates of the First Element==================
+The 0 duplicate is Animal name: amenadiel Animal age:10 Animal type: Guineafowl
+The 1 duplicate is Animal name: amenadiel Animal age:10 Animal type: Guineafowl
+The 2 duplicate is Animal name: amenadiel Animal age:10 Animal type: Guineafowl
+=================Removing Duplicates of the First Element==================
+-----------------Testing the remove all duplicates function----------------------
+The array size is 28 The tail pointer is at 18
+
+Animal name: hercules Animal age:13 Animal type: Cow CustArray
+Animal name: sadi Animal age:6 Animal type: Tiger CustArray
+Animal name: safwaan Animal age:13 Animal type: Reptile CustArray
+Animal name: jakalyn Animal age:37 Animal type: American robin CustArray
+Animal name: daizy Animal age:15 Animal type: X-ray fish CustArray
+Animal name: jovan Animal age:50 Animal type: Basilisk CustArray
+Animal name: sadi Animal age:6 Animal type: Tiger CustArray
+Animal name: hercules Animal age:13 Animal type: Cow CustArray
+Animal name: nola Animal age:37 Animal type: Moth CustArray
+Animal name: delight Animal age:8 Animal type: Bird CustArray
+Animal name: leika Animal age:20 Animal type: Sea lion CustArray
+Animal name: leika Animal age:20 Animal type: Sea lion CustArray
+Animal name: sadi Animal age:6 Animal type: Tiger CustArray
+Animal name: augustino Animal age:27 Animal type: Mountain goat CustArray
+Animal name: daizy Animal age:15 Animal type: X-ray fish CustArray
+Animal name: safwaan Animal age:13 Animal type: Reptile CustArray
+Animal name: khalief Animal age:35 Animal type: Mosquito CustArray
+Animal name: nola Animal age:37 Animal type: Moth CustArray
+
+------------------Sorting the Array----------------------
+=================Sorting the animals by AGE ==================
+The array size is 28 The tail pointer is at 18
+
+Animal name: sadi Animal age:6 Animal type: Tiger CustArray
+Animal name: sadi Animal age:6 Animal type: Tiger CustArray
+Animal name: sadi Animal age:6 Animal type: Tiger CustArray
+Animal name: delight Animal age:8 Animal type: Bird CustArray
+Animal name: hercules Animal age:13 Animal type: Cow CustArray
+Animal name: safwaan Animal age:13 Animal type: Reptile CustArray
+Animal name: hercules Animal age:13 Animal type: Cow CustArray
+Animal name: safwaan Animal age:13 Animal type: Reptile CustArray
+Animal name: daizy Animal age:15 Animal type: X-ray fish CustArray
+Animal name: daizy Animal age:15 Animal type: X-ray fish CustArray
+Animal name: leika Animal age:20 Animal type: Sea lion CustArray
+Animal name: leika Animal age:20 Animal type: Sea lion CustArray
+Animal name: augustino Animal age:27 Animal type: Mountain goat CustArray
+Animal name: khalief Animal age:35 Animal type: Mosquito CustArray
+Animal name: jakalyn Animal age:37 Animal type: American robin CustArray
+Animal name: nola Animal age:37 Animal type: Moth CustArray
+Animal name: nola Animal age:37 Animal type: Moth CustArray
+Animal name: jovan Animal age:50 Animal type: Basilisk CustArray
+
