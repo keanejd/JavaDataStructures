@@ -1,5 +1,5 @@
 JC =javac
-JARFILE = ../zoo/zoo.jar
+JARFILE = zoo/zoo.jar
 SRC = CustArray.java TestArray.java Main.java
 
 
