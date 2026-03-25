@@ -10,9 +10,10 @@ Personal Java project implementing a generic array data structure and an object-
 ## Project Structure
 ```
 JavaDataStructures/
-├── zoo/
-├── CustArray/
-└── Makefile
+|-- zoo/
+|-- CustArray/
+|-- doubleList
+|-- Makefile
 ```
 
 ## Build
@@ -23,7 +24,7 @@ make
 ## Run
 ```bash
 make run-custarray
-```
+```cd 
 ```
 
 ## Requirements
