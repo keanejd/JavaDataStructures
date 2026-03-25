@@ -36,10 +36,10 @@ import java.util.Comparator;
     public boolean minSize() { return (size-1)/2 >= tailPtr; }
     
     public boolean equalElements(int _index1, int _index2){ 
-        return comparator.compare(array[_index1], array[_index2]) == 0 ;}
+        return array[_index1].equals( array[_index2]); }
 
     public boolean indexEquals(int _index, T _data) { 
-        return comparator.compare(array[_index], _data) == 0;}
+         return array[_index].equals(_data); }
 
     public void swapElements(int _index1, int _index2){
         // copy the element at index 2
@@ -71,7 +71,7 @@ import java.util.Comparator;
     public int numberOfduplicates(T _data){
         int count = 0;
         for(int i = 0; i < tailPtr; i++) {
-            if(comparator.compare( array[i], _data ) == 0)
+            if( array[i].equals( _data ) )
                 count++;
         }
         return count;
@@ -82,7 +82,7 @@ import java.util.Comparator;
         int index = 0;
 
         for(int i = 0; i < tailPtr; i++)
-            if(comparator.compare(array[i],_data) == 0)  duplicateIndex[index++] = i;
+            if(array[i].equals(_data) )  duplicateIndex[index++] = i;
 
         return duplicateIndex;
     }
