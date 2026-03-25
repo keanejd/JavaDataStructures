@@ -18,8 +18,8 @@ public class AnimalTest {
 
   public AnimalTest(){
 
-      this.animalNames = readText("zoo/zoo/names.txt");
-      this.animalType = readText("zoo/zoo/animals.txt");
+      this.animalNames = readText("../zoo/zoo/names.txt");
+      this.animalType = readText("../zoo/zoo/animals.txt");
       this.size = 0;
   }
 

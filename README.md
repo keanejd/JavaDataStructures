@@ -7,28 +7,23 @@ Personal Java project implementing a generic array data structure and an object-
 - **CustArray<T>** – A generic resizable array built from scratch (no ArrayList)
 - **Zoo Package** – Animal hierarchy with sorting via Comparator and merge sort
 
+## Project Structure
+```
+JavaDataStructures/
+├── zoo/
+├── CustArray/
+└── Makefile
+```
+
 ## Build
 ```bash
 make
 ```
 
-Produces `zoo.jar`.
-
 ## Run
 ```bash
-make run
+make run-custarray
 ```
-
-## Project Structure
-```
-.
-├── CustArray.java       # Generic array implementation
-├── TestArray.java       # CustArray tests
-├── zoo/
-│   ├── Animal.java
-│   ├── AnimalTest.java
-│   └── ...
-└── Makefile
 ```
 
 ## Requirements
