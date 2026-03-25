@@ -12,7 +12,7 @@ Personal Java project implementing a generic array data structure and an object-
 JavaDataStructures/
 |-- zoo/
 |-- CustArray/
-|-- doubleList
+|-- doubleList/
 |-- Makefile
 ```
 
