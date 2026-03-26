@@ -1,4 +1,4 @@
-all: zoo custarray doublelist
+all: zoo custarray linear
 
 zoo:
 	$(MAKE) -C zoo
@@ -18,7 +18,7 @@ run-linear:
 clean:
 	$(MAKE) -C zoo clean
 	$(MAKE) -C CustArray clean
-	$(MAKE) -C DoubleList clean
+	$(MAKE) -C Linear clean
 
 .PHONY: all zoo custarray linear run-custarray run-linear clean
 
