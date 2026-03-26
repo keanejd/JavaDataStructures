@@ -57,7 +57,7 @@ public class Animal{
     if( this == _obj ) return true;
     if(_obj == null || getClass() != _obj.getClass()) return false;
     Animal other = (Animal) _obj;
-    return this.type.equalsIgnoreCase(other.type);
+    return this.name.equalsIgnoreCase(other.name);
 
    }
 
