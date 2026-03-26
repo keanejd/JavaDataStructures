@@ -5,6 +5,9 @@ Personal Java project implementing a generic array data structure and an object-
 ## Contents
 
 - **CustArray<T>** – A generic resizable array built from scratch (no ArrayList)
+- **DoubleList<T>** - A generic doubly linked list 
+- **Queue<T>** - A generic Queue,  based on the doubly linked list
+- **Stack<T>** - A generic Stack, based on the doubly linked list
 - **Zoo Package** – Animal hierarchy with sorting via Comparator and merge sort
 
 ## Project Structure
@@ -12,6 +15,7 @@ Personal Java project implementing a generic array data structure and an object-
 JavaDataStructures/
 |-- zoo/
 |-- CustArray/
+|-- Linear
 |-- Makefile
 ```
 
@@ -23,6 +27,7 @@ make
 ## Run
 ```bash
 make run-custarray
+make run-linear
 ```cd 
 ```
 
@@ -34,8 +39,9 @@ make run-custarray
 ```
 make run
 ```
-
-Outputs to `CustArray_results.txt`. Features tested:
+Outputs to `CustArray_results.txt`.
+Outputs to `Linear_results.txt`. 
+Features tested:
 - Generic array fill and display
 - Overloaded constructor (array param)
 - Swap, remove
