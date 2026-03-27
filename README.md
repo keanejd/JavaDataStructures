@@ -1,6 +1,6 @@
 # Java Data Structures & Zoo Package
 
-Personal Java project implementing a generic array data structure and an object-oriented zoo management system.
+Personal Java project implementing and testing various data structures
 
 ## Contents
 
@@ -15,7 +15,7 @@ Personal Java project implementing a generic array data structure and an object-
 JavaDataStructures/
 |-- zoo/
 |-- CustArray/
-|-- Linear
+|-- Linear/
 |-- Makefile
 ```
 
@@ -39,11 +39,6 @@ make run-linear
 ```
 make run
 ```
-Outputs to `CustArray_results.txt`.
-Outputs to `Linear_results.txt`. 
+Outputs to `CustArray_results.txt`. `Linear_results.txt`. 
 Features tested:
-- Generic array fill and display
-- Overloaded constructor (array param)
-- Swap, remove
-- Duplicate detection and removal
-- Merge sort by age (Comparator)
+- Generic vector, doubly linked list, stack,  and queue
