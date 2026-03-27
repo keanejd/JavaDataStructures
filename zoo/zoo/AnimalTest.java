@@ -55,13 +55,11 @@ public class AnimalTest {
     }
 
    public String chooseName() {
-        int rando = randomNumber(0, animalNames.length-1);
-        return animalNames[rando];
+        return animalNames[randomNumber(0, animalNames.length-1)];
    }
 
    public String chooseType() {
-        int rando = randomNumber(0, animalType.length-1);
-        return animalType[rando];
+        return animalType[ randomNumber(0, animalType.length - 1) ];
    }
 
    public void fillZoo(int _numAnimals, int _minAge, int _maxAge) {
@@ -73,5 +71,11 @@ public class AnimalTest {
          // System.out.println(Zoo[i].toString());
       }
    }
+
+   public Animal randomAnimal() {
+    return zoo[ randomNumber(0, zoo.length - 1) ]; 
+   }
+
+
 
 }

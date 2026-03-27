@@ -24,7 +24,7 @@ public class Stack<T> {
             System.out.println("The Stack is empty");
             return null;
         }
-        return list.peekFront();
+        return list.peekRear();
     }
 
     public T pop() {
@@ -32,11 +32,15 @@ public class Stack<T> {
             System.out.println("The Stack is empty");
             return null;
         }
-        return list.removeFront();
+        return list.removeBack();
     }
 
     public void push(T _data){
-        list.addFront(_data);
+        list.addRear(_data);
+    }
+
+    public void printStack() {
+        list.printReverse();
     }
     
 }

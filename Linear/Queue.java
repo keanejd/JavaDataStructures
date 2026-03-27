@@ -30,4 +30,8 @@ public class Queue<T> {
     public void offer(T _data) {
         list.addRear(_data);
     }
+
+    public void printQueue() {
+        list.printList();
+     }
 }

@@ -171,14 +171,30 @@ public class DoubleList<T> {
     }
 
      public void printList() {
-            DoubleNode<T> trav = head;
+            DoubleNode<T> current = head;
+            int i = 0;
 
-            while(trav != null) {
-                System.out.println(trav.toString() + " DOUBLE--> " );
-                trav = trav.getNext();
+            while(current != null) {
+                System.out.println(i+ ". " + current + " DL--> " );
+                current = current.getNext();
+                i++;
             }
 
             System.out.println("The end of the DoubleList  " + size);
         }
+
+  
+  
+    public void printReverse(){
+           DoubleNode<T> current = tail;
+           int i = 0; 
+           while(current != null) {
+                System.out.println(i+". " + current + " DL--> " );
+                current = current.getPrev();
+                i++;
+            }
+
+            System.out.println("The end of the DoubleList  " + size);
+    }
 
 }
