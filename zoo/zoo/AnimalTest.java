@@ -8,7 +8,7 @@ import java.io.FileNotFoundException;
 import java.util.List;
 
 public class AnimalTest {
-
+  private static final int  PRIORITY_RANGE = 1000000;
   private String [] animalNames;
   private String [] animalType;
   private int size;
@@ -66,7 +66,8 @@ public class AnimalTest {
        zoo = new Animal[_numAnimals];
 
       for( int i = 0; i < _numAnimals; i++){
-          zoo[i] = new Animal(chooseName(), randomNumber(_minAge, _maxAge), chooseType());
+          zoo[i] = new Animal(chooseName(), randomNumber(_minAge, _maxAge), 
+            chooseType(), randomNumber( 0, PRIORITY_RANGE));
           size++;
          // System.out.println(Zoo[i].toString());
       }
@@ -75,7 +76,5 @@ public class AnimalTest {
    public Animal randomAnimal() {
     return zoo[ randomNumber(0, zoo.length - 1) ]; 
    }
-
-
 
 }

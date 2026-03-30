@@ -58,18 +58,6 @@ public static <T> void removeTest(CustArray<T> _c, int _a ) {
 
 }
 
-public static <T> void  addElementTest(CustArray<T> _c, T [] _array, int _a) {
-    System.out.println("-----------------Testing the add function----------------------");
-    Random rando = new Random();
-
-    for(int i = 0; i < _a; i++) {
-        _c.addElement(_array[rando.nextInt(_array.length)]);
-    }
-
-    printArray(_c);
-
-}
-
 public static <T> void addDuplicates(CustArray<T> _c,  T [] _array, int _a) {
     Random rando = new Random();
       System.out.println("-----------------Testing the add duplicates function----------------------");
@@ -107,7 +95,7 @@ public static <T> void removeDuplicates(CustArray<T> _c, T _data) {
 
 public static <T> void sortArray(CustArray<T> _c) {
     System.out.println("------------------Sorting the Array----------------------");
-    System.out.println("=================Sorting the animals by AGE ==================");
+    System.out.println("=================Sorting the animals by Priority ===============");
     _c.sort();
     printArray(_c);
 }
@@ -118,9 +106,10 @@ public static <T> void testFunctions() {
 
     AnimalTest test = fillThezoo(15, 1, 50);
     
-    CustArray<Animal> animalArr = new CustArray<>(test.getSize()/2, Animal.BY_AGE, Animal.class);
-
+    CustArray<Animal> animalArr = new CustArray<>(test.getSize()/2,Animal.BY_PRIORITY, Animal.class);
+    CustArray<Animal> sort = new CustArray<>(test.getSize(), Animal.BY_PRIORITY, Animal.class);
     FillArray( animalArr, test.zoo, test.getSize()/2);
+    FillArray( sort, test.zoo, test.getSize() );
     printArray(animalArr);
 
     printArray(animalArr, test.zoo);
@@ -133,8 +122,10 @@ public static <T> void testFunctions() {
 
     findDuplicates(animalArr, animalArr.getElement(0));
 
+
     sortArray(animalArr);
 
+    sortArray(sort);
 
 }
 

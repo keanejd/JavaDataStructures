@@ -99,7 +99,8 @@ public class LinearTest {
         System.out.println("Check is " + temp + " in the list now:" + _l.inList(temp) );
         printList(_l);
         System.out.println("Remvoing the value at index 4 " + _l.removeAtIndex(4) );
-        printList(_l);
+        printList(_l
+        );
     }
 
 
