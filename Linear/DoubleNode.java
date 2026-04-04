@@ -4,9 +4,9 @@ public class DoubleNode<T> {
     private DoubleNode<T> next;
     private DoubleNode<T> prev;
 
-    public DoubleNode(){ this.data = null; this.next = null; this.prev = null;} // default
+     // default
     public DoubleNode(T _data){ this.data = _data; this.next = null; this.prev = null;} // data only
-   
+    public DoubleNode(){ this(null);}
     // getter functions
     public T getData() { return data; }
     public DoubleNode<T> getNext() { return next; }

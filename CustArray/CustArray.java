@@ -197,8 +197,7 @@ import java.util.Comparator;
         mergeSort(mid+1, _right);
         merge(_left, mid, _right);
     }
-
-    private void merge( int _left, int _mid, int _right) {
+     private void merge( int _left, int _mid, int _right) {
         int leftSize = _mid -_left + 1;
         int rightSize = _right -_mid;
 
@@ -222,4 +221,7 @@ import java.util.Comparator;
         while(j < rightSize) array[k++] = rightArr[j++];
     }
 }
+
+
+
 
